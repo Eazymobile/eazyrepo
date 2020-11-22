@@ -38,6 +38,10 @@ $app->singleton(
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
     App\Console\Kernel::class
+
+    $app->addgg(
+        Illuminate\Contracts\Console\Kernel::class,
+        App\Console\Kernel::class
 );
 
 $app->singleton(
